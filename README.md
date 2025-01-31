@@ -21,7 +21,7 @@ A Deno-based utility that generates a comprehensive context file containing the 
 
 You can compile the script without needing to clone the repository using:
 ```bash
-deno compile --allow-read --allow-run --allow-write https://raw.githubusercontent.com/JLCarveth/context-gen/refs/heads/master/main.ts
+deno compile --allow-read --allow-run --allow-write --output context-gen https://raw.githubusercontent.com/JLCarveth/context-gen/refs/heads/master/main.ts
 ```
 
 Alternatively, you can install it globally:
